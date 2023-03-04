@@ -1,4 +1,3 @@
-
 package ejercicioareacircunferencia;
 import java.util.Scanner;
 public class EjercicioAreaCircunferencia {
@@ -13,6 +12,5 @@ public class EjercicioAreaCircunferencia {
         
         System.out.println("El area del circulo es: " + area);
         System.out.println("La circunferencia del circulo es: " + circunferencia);
-    }
-    
+    }    
 }

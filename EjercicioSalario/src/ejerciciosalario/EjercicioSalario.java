@@ -1,6 +1,6 @@
-package ejerciciosaalario;
+package ejerciciosalario;
 import java.util.Scanner;
-public class EjercicioSaalario {
+public class EjercicioSalario {
     public static void main(String[] args) {
         double horastrabajadas, valorhora, retencion, salariobruto, salarioneto, retencionfinal;
         Scanner input = new Scanner(System.in);
@@ -17,9 +17,6 @@ public class EjercicioSaalario {
         salarioneto = salariobruto - (salariobruto * retencion);
         System.out.println("El salario bruto es " + salariobruto);
         System.out.println("La retencion es " + retencionfinal);
-        System.out.println("El salario neto es " + salarioneto);
-        
-        
-    }
-    
+        System.out.println("El salario neto es " + salarioneto);   
+    }  
 }
